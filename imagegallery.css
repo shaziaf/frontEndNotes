@@ -1,0 +1,27 @@
+p{
+    font-family: 'pacifico';
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;    
+
+}
+
+img{
+    width: 30%;
+    /* this is 30 percent relative to the parent element in this case which is the body
+    
+    my page is 100 percent
+    and i have three images that have thirty percent each
+    
+    in a 3x3 grid we have six margins because it is two sides per image
+
+    10 percent/6 = 1.6666....
+
+    
+    */
+float: left;
+    margin: 1.666%;
+}
+
