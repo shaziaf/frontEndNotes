@@ -1,0 +1,52 @@
+p{
+    width: 50%
+}
+
+Border
+
+/* -shorthands syntax in CSS that accepts multiple values for drawing a line around the element it's applied to 
+-accepts one or more of the following values, in combination:border:border-width border-style color; */
+
+.first{
+/* 
+border-width: 2px;
+border-style: solid;
+border-color: blue; */
+
+border: 2px solid blue;
+
+}
+
+.second{
+
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px; */
+
+    /* padding individual clockwise*/
+
+    /* padding: 10px 20px 10px 20px; */
+    /* padding in one line */
+
+    /* padding: 10px 20px; */
+    /* padding where css assumes the top and bottom to be 10px and left and right to be 20px */
+padding: 20px;
+/* padding all same on all sides  */
+
+/* padding top rightandleft bottom */
+    
+    text-align: center
+}
+
+/* margin-defines the outermost portion of the box model, creating space around an element, outside of any defined borders
+-margins can be set using lengths percentages keywords ..auto...and can also have negative values */
+
+/* the auto keywords u want to use on the left and write to center */
+.first{
+    /* margin: 100px; */
+
+    margin: 0 auto;
+    text-align: center;
+}
+
