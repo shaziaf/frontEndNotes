@@ -4,6 +4,8 @@ h3{
     color: blue;
     font-family: 'Pacifico', cursive;
 font-family: 'Dancing Script', cursive;
+
+letter-spacing: 0.2rem;
 }
 
 body{
@@ -16,6 +18,7 @@ body{
 
 .leftmark{
     border-left: 5px solid gray;
+    padding-left: 5px;
 }
 
 div{
