@@ -92,7 +92,7 @@ while (f<10)
 //Iterating /Looping through array
 
 const cars = ['Ford','Nissan', 'Honda', 'Toyota'];
-for (let i=o; i<cars.length){
+for (let i=o; i<cars.length;i++){
     console.log(cars[i]);
 }
 
@@ -101,8 +101,7 @@ for (let i=o; i<cars.length){
 cars.forEach(function(cars,index, theEntireDarnArray){
     //console.log('foreach' +car);
     console.log(`with index ${index}: ${car}`);
-
-}
+})
 
 // map() method
 
@@ -126,7 +125,7 @@ console.log(ids);
 const user= {
     firstName: 'Champa',
     lastName: 'Chameli',
-    age = 89,
+    age: 89,
     decentHUmanBeing: false
 }
 
@@ -135,3 +134,4 @@ for(let x in user){
     console.log(user[x]);
     console.log(`${x} :${user[x]}`);
 }
+
